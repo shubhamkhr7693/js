@@ -29,3 +29,29 @@ const myFunction = function(){
     console.log("hello");
     
 }
+
+
+//_________________--------------memory 
+// stack (Primitive), Heap (Non-Primitive)
+
+//stack
+let myName = "sjibisdbfsdli"
+let anotherName = "asjfbas"
+anotherName = "sisd"
+
+console.log(myName);
+console.log(anotherName);
+
+
+//heap
+let userOne={
+    email : "sajbdfilj@s.com",
+    upi:"usser@ybl"
+}
+let userTwo = userOne
+
+userTwo.email = "sm@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
