@@ -6,3 +6,15 @@
 // bigint
 //string
 //null => stand alone value
+//undefined =>
+//symbol => unique
+
+
+//object
+
+
+console.log(typeof "s");
+console.log(typeof null);  //object
+console.log(typeof undefined);   //undefined
+
+
