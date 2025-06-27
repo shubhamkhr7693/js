@@ -60,15 +60,41 @@ const users = [
 
 //console.log(users);
 //console.log(users[1].email);
-console.log(tinderUser);
+// console.log(tinderUser);
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser)); // make every entries as a array
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser)); // make every entries as a array
 
-console.log(tinderUser.hasOwnProperty('isLoggedIn'));//is loggedIn present or not
+// console.log(tinderUser.hasOwnProperty('isLoggedIn'));//is loggedIn present or not
 
 
 
 // destructoring
+
+const course = {
+    coursename : 'js in hindi',
+    price : '999',
+    courseInstructor : 'shubham'
+
+}
+//course.courseInstructor
+
+const {courseInstructor : instructor} = course
+console.log(instructor);
+
+
+//destrucring the object using reat
+
+// const navbar = (props.company) => {
+
+// }
+// navbar(company = "shubham")
+
+
+// calling API from Json
+// {
+//     "name": "shubham",
+//     "coursername": "Java Script"
+// }
 
